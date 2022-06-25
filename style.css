@@ -76,6 +76,10 @@ a {
     padding: .5em 1em;
 }
 
+.ninjaDefinitionRight {
+    padding: .5em 1em;
+}
+
 button {
     box-shadow: 2px 2px black;
     border: 2px solid black;
