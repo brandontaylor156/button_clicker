@@ -58,6 +58,10 @@ input {
     gap: 10px;
 }
 
+a {
+    color: hsl(208deg 90% 31%);
+}
+
 .likeButton {
     background-color: #fed966;
 }
