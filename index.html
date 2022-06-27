@@ -9,26 +9,33 @@
 </head>
 <body>
 
+    <!-- Header consisting of top gray bar -->
     <header class="navbar flex">
         <h1>Dojonary</h1>
         <input type="text" placeholder="Search">
         <button id='loginButton' onclick="logOut(this)">Login</button>
     </header>
 
+    <!-- Container for everything underneath header -->
     <div class="websiteContainer flex">
+
+        <!-- Left column of container -->
         <div class="leftColumn">
+
+            <!-- First box of left column -->
             <div class="ninjaDefinitionBox flex">
                 <div class="ninjaDefinitionLeft">
                     <h1>ninja</h1>
                     <h4>noun</h4>
                     <h4>Plural: ninjas</h4>
-                    <button class='likeButton' onclick="ninjaLike(this)">13 likes</button>
+                    <button class='likeButton' onclick="ninjaLike()">13 likes</button>
                 </div>
                 <div class="ninjaDefinitionRight">
                     <h3>A practicioner skilled in the <a href="">Japanese</a> art of <a href="">ninjutsu</a></h3>
                 </div>
             </div>
 
+            <!-- Second box of left column -->
             <div class="ninjaDefinitionBox flex">
                 <div class="ninjaDefinitionLeft">
                     <h1>ninja</h1>
@@ -41,8 +48,11 @@
                 </div>
             </div>
         </div>
+        <!-- End of left column -->
+
+        <!-- Right column -->
         <div class="rightColumn">
-            <h2>Dojonary is defined by YOU</h2>
+            <h2 id="dojonary">Dojonary is defined by YOU</h2>
             <button id='addDefinition' onclick="removeButton(this)">Add Definition</button>
         </div>
     </div>
